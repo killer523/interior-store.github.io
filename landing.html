@@ -1,0 +1,142 @@
+<!-- landing.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="korb center">
+        <header>
+            <img src="img/logo.svg" alt="Логотип">
+            <input class="header__input" placeholder="Поиск" type="text">
+            <nav class="meny__nav">
+                <a class="meny__link" href="catalog.html">Каталог</a>
+                <a class="meny__link"" href="landing.html">Корзинa</a>
+            </nav>
+        </header>
+            
+        <div class="korb__title">
+            <h1 class="korb__titel">Корзина</h1> 
+        </div>
+    </div>
+    <div class="cart center">
+        <div class="cart__content">
+            <div class="cart__name-box">
+                <p>Товар</p>
+                <p>К-во</p>
+            </div>
+            <div class="cart__item">
+                <div class="cart__left">
+                    <img src="img/Korb/korb-meny.jpg" alt="">
+                    <div class="cart__info">
+                        <h4 class="cart__info-titel">Стол MENU</h4>
+                        <p class="cart__info-text">Для того чтобы трапезничать было <br> приятно, необходим правильный <br> обеденный стол.</p>
+                        <p class="cart__info-prise">34 000 руб</p>
+                        <div class="cart__link-box">
+                            <a href="#">Избранные</a>
+                            <a class="cart__link-link" href="#">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+                <input class="cart__info-input" type="number" value="1" min="1"> 
+            </div>
+            <div class="cart__item">
+                <div class="cart__left">
+                    <img src="img/Korb/korb-nastan.jpg" alt="">
+                    <div class="cart__info">
+                        <h4 class="cart__info-titel">Диван NASTAN</h4>
+                        <p class="cart__info-text">Модель отличается простотой линий <br> и форм, отсутствием броского <br> декора. </p>
+                        <p class="cart__info-prise">80 000 руб</p>
+                        <div class="cart__link-box">
+                            <a href="#">Избранные</a>
+                            <a class="cart__link-link" href="#">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+                <input class="cart__info-input" type="number" value="1" min="1"> 
+            </div>
+            <div class="cart__info">
+                <button class="button__cart-info" type="submit">
+                    <p>Очистить корзину</p>
+                </button>
+                <button class="button__riht button__cart-info" type="submit">
+                    <a class="button__cart-riht" href="catalog.html">Продолжить покупки</a>
+                </button>
+            </div>
+        </div>
+        <div class="cart__form">
+            <h3 class="cart__form-title">Оформление заказа</h3>
+            <input class="cart__form-input" type="text" placeholder="Имя Фамилия">
+            <input class="cart__form-input" type="tel" placeholder="+ 7 904 000 80 80">
+            <input class="cart__form-input" type="text" placeholder="Адрес доставки">
+            <p class="cart__form-place">Итого: 128 000 руб.</p>
+            <button class="button__cart-place cart_info" type="submit">
+                <p>Оформление заказа</p>
+            </button>
+        </div>
+    </div>
+    <div class="special__offers center">
+        <section>
+            <h2 class="spezial">Специальные предложения</h2>
+            <div class="product__content">
+                <article>
+                    <img class="produck__img" src="img/Katalog/tatra.jpg" alt="Люстра">
+                    <h3 class="special__offers-text">Люстра VODA</h3>
+                    <p class="special__offers-index">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
+                    <div class="produck__price">
+                        <p class="prise">45 000 руб</p>
+                        <p class="prise__alt">67 000 руб</p>
+                    </div>
+                </article>
+                <article>
+                    <img class="produck__img" src="img/Katalog/velora.jpg" alt="Диван">
+                    <h3 class="special__offers-text">Диван RONALD</h3>
+                    <p class="special__offers-index">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
+                    <div class="produck__price">
+                        <p class="prise">45 000 руб</p>
+                        <p class="prise__alt">67 000 руб</p>
+                    </div>
+                </article>
+                <article>
+                    <img class="produck__img" src="img/Katalog/menu.jpg" alt="Комод">
+                    <h3 class="special__offers-text">Комод VENT</h3>
+                    <p class="special__offers-index">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+                    <div class="produck__price">
+                        <p class="prise">45 000 руб</p>
+                        <p class="prise__alt">67 000 руб</p>
+                    </div>
+                </article>
+           </div>
+        </section>
+    </div>
+    <footer class="center">
+        <div class="footer__index">
+            <a href="#"><img class="footer__img" src="img/logofooter.svg" alt="Логотип"></a>
+        </div>
+        <div class="meny__footer">
+            <h4 class="meny">Меню</h4>
+            <a class="meny__style meny_style-footer" href="index.html">Главная</a>
+            <a class="meny__style meny_style-footer" href="catalog.html">Каталог</a>
+            <a class="meny__style meny_style-footer" href="landing.html">Корзина</a>
+        </div>
+        <div class="meny__soz">
+            <h4 class="meny__cont">Контакты</h4>
+            <a class="meny__style" href="tel:+7 908 800 80 80">+7 908 800 80 80</a>
+            <a class="meny__style" href="mailto:help@interier.com">help@interier.com</a>
+        </div>
+        <div class="meny__form">
+            <form action="#">
+                <p class="footer__index">Получайте наши новости и обновления</p>
+                <input class="input" placeholder="Ваш e-mail" type="email">
+                <button class="button" type="submit">Подписаться</button>
+            </form>
+        </div>
+    </footer>  
+</body>
+</html>
