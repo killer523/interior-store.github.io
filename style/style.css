@@ -18,7 +18,7 @@ a {
 
 .header {
   height: 735px;
-  background-image: url(/img/header.jpg);
+  background-image: url(../img/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,7 +133,7 @@ header {
 }
 
 .for__item-1 {
-  background-image: url(/img/rest.jpg);
+  background-image: url(../img/rest.jpg);
 }
 
 .for__item-big {
@@ -141,19 +141,19 @@ header {
 }
 
 .for__item-2 {
-  background-image: url(/img/work.jpg);
+  background-image: url(../img/work.jpg);
 }
 
 .for__item-3 {
-  background-image: url(/img/kithen.jpg);
+  background-image: url(../img/kithen.jpg);
 }
 
 .for__item-4 {
-  background-image: url(/img/children.jpg);
+  background-image: url(../img/children.jpg);
 }
 
 .for__item-5 {
-  background-image: url(/img/bath.jpg);
+  background-image: url(../img/bath.jpg);
 }
 
 .spezial {
@@ -452,7 +452,7 @@ footer {
   background-color: #f7f6f6;
   border: 0px;
   border-radius: 6px;
-  background-image: url(/img/Korb/Frame\ 97.png), url(/img/Korb/Frame\ 98.png);
+  background-image: url(../img/Korb/Frame\ 97.png), url(../img/Korb/Frame\ 98.png);
   background-position: 45px 30px, 45px 8px;
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;

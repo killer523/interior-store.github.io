@@ -16,7 +16,7 @@ a{
 }
 .header{
     height: 735px;
-    background-image: url(/img/header.jpg);
+    background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -109,22 +109,22 @@ header{
     align-items: center;
 }
 .for__item-1 {
-    background-image: url(/img/rest.jpg);
+    background-image: url(../img/rest.jpg);
 }
 .for__item-big {
     grid-column: span 6;
 }
 .for__item-2 {
-    background-image: url(/img/work.jpg);
+    background-image: url(../img/work.jpg);
 }
 .for__item-3 {
-    background-image: url(/img/kithen.jpg);
+    background-image: url(../img/kithen.jpg);
 }
 .for__item-4 {
-    background-image: url(/img/children.jpg);
+    background-image: url(../img/children.jpg);
 }
 .for__item-5 {
-    background-image: url(/img/bath.jpg);
+    background-image: url(../img/bath.jpg);
 }
 .spezial {
     font-weight: 600;
