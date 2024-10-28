@@ -1,0 +1,179 @@
+.korb{
+    height: 400px;
+    background-image: url(img/Korb/korb-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.korb__titel{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: $color-text;
+    margin-top: 126px;
+}
+.cart {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+    &__content{
+        grid-column: span 8;
+    }
+    &__form {
+        background: #f7f6f6;
+        border-radius: 20px;
+        height: 556px;
+        grid-column: span 4;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-top: 0.5px solid #cacdd8;
+        padding-bottom: 32px;
+        padding-top: 50px;
+    }
+    &__left{
+        display: flex;
+        gap: 32px;
+    }
+    &__name-box{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 14px;
+    }
+    &__link-box a{
+        color: #000000;
+        text-decoration: underline;
+        font-weight: 400;
+        size: 14px;
+    }
+    &__link-link{
+        margin-left: 30px;
+    }
+    &__info-titel{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__info-text{
+        font-weight: 400;
+        color: #888888;
+        font-size: 14px;
+        padding-top: 14px;
+        padding-bottom: 16px;
+     
+    }
+    &__info-prise{
+        font-style: 16px;
+        color: #050505;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }  
+    &__info-produkt {
+        padding-bottom: 32px;
+        padding-top: 18px;
+    }
+    &_info{
+        display: block;
+        margin: 0 auto;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+    &__form-title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        padding-top: 42px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    &__form-title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        padding-top: 42px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    &__form-title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        padding-top: 42px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    &__info-input{
+        height: 51px;
+        width: 71px;
+        text-align: center;
+        background-color: #f7f6f6;
+        border: 0px;
+        border-radius: 6px;
+        background-image: url(img/Korb/Frame\ 97.png),
+                      url(img/Korb/Frame\ 98.png);
+        background-position: 45px 30px, 45px 8px;
+        background-repeat: no-repeat;
+        font-family:"Montserrat", sans-serif;
+    }
+    &__form-input{
+        font: inherit;
+        background-color: #f7f6f6;
+        border: 0px;
+        border-bottom: 1px solid #cacdd8;
+        color: #000000;
+        margin-bottom: 44px;
+        font-size: 14px;
+        margin-left: 27px;
+        margin-right: 64px;
+    }
+    &__info-input::-webkit-outer-spin-button,
+    &__info-input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+    &__form-place{
+        margin-top: 20px;
+        margin-bottom: 18px;
+        font-size: 24px;
+        text-align: center;
+    }
+}   
+.button__cart-riht{
+    color: #000000;
+}
+.button__riht{
+    margin-left: 7px;
+}
+.button__cart-info{
+    font: inherit;
+    background: $color-text;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 200px;
+    height: 37px;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #000000;
+}
+.button__cart-place{
+    font: inherit;
+    background: rgb(247, 246, 246, 0);;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 290px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 1px solid #000000;
+}
+
+input.cart__form-input::placeholder{
+    color: #000000;
+}

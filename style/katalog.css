@@ -1,0 +1,64 @@
+.header__katalog{
+    background-image: url(/img/Katalog/B.Katalog.jpg);
+}
+.titel__katalog{
+    margin-top: 127px;
+    padding-bottom: 127px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 64px;
+    line-height: 70px;
+    color: #ffffff;
+}
+.katalog{
+    height: 200px;
+}
+.katalog__link{
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    text-decoration: underline;
+}
+.katalog__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+.katalog__nav-link {
+    display:flex
+}
+.katalog__nav-link p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.katalog__nav-link a {
+    color: #000000;
+}
+.katalog__nav-input {
+    display: flex;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 15px;
+    border-color: #c4c4c4;
+}
+.katalog__nav-wort {
+    font-size: 16px;
+    font-weight: 400;
+}
+.katalog__nav-select {
+    border: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.katalog__nav-img {
+    margin-left: -15px;
+}
